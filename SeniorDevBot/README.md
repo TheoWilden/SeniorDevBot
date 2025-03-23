@@ -4,15 +4,26 @@
 
 ## Description
 
-SeniorDevBot is a GitHub App that behaves like a grumpy senior developer reviewing your pull requests. It analyzes your code changes and generates snarky but somewhat constructive comments that poke fun at your coding style and choices.
+SeniorDevBot is a GitHub App that behaves like a grumpy senior developer reviewing your code and issues. It analyzes your code changes and generates snarky but somewhat constructive comments that poke fun at your coding style and choices.
 
 ## Features
 
-- Automatically comments on new pull requests
+- Automatically comments on new pull requests with AI-generated snarky code reviews
 - Provides grumpy feedback on commits pushed to your repository
+- Responds to new issues with condescending but witty comments
 - Analyzes code changes to provide personalized feedback
 - Uses Hugging Face AI models to generate witty and sarcastic comments
 - Makes you question your life choices as a developer (just kidding... sort of)
+
+## How It Works
+
+SeniorDevBot uses the Hugging Face API to generate realistic, contextual responses:
+
+1. **For Pull Requests**: Analyzes the code changes and provides detailed snarky feedback
+2. **For Commits**: Comments directly on commits with criticism of your coding style
+3. **For Issues**: Responds to new issues with witty, slightly condescending comments
+
+All comments maintain a humorous tone while still being somewhat constructive.
 
 ## Setup
 
